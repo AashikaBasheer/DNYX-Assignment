@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Assignment 7</h1>
+    <h1 >JavaScript</h1>
+    <p >JavaScript is a versatile, high-level programming language primarily used in web development to create interactive 
+        and dynamic user experiences. Unlike HTML and CSS, which structure and style web pages, JavaScript allows developers
+         to add functionality such as animations, form validations, and real-time updates without reloading the page.</p>
+    <h1 >JavaScript Role in web development</h1>
+      <p>  JavaScript runs in the browser, enabling it to interact with the Document Object Model (DOM) to modify content, 
+        respond to user actions, and communicate with servers via APIs. It's essential for front-end development and is also
+        used on the server side with environments like Node.js, making it a key language for full-stack development.</p>
+    <h1>Loose Equality (==)</h1>
+        <p><b>Type Coercion:</b> Loose equality compares two values for equality, after converting both values to a common type. This
+         process is known as type coercion.</p>
+    <h1>Strict Equality (===)</h1>
+     <p><b>No Type Coercion:</b> Strict equality compares two values for equality without converting their types. Both the value and the
+        type must be the same for the comparison to return true.</p>
+<script>
+    let username="Aashika B";
+    let age=18;
+    console.log("Name: ", username);
+    console.log("Age: ",age);
+    let num1=20;
+    let num2=30;
+    console.log("Addition = ", num1+num2);
+    console.log("Subtraction = ", num1-num2);
+    console.log("Multiplication = ", num1*num2);
+    console.log("Division = ", num1/num2);
+    let subject = prompt("Enter your favourite subject:");
+    console.log("My favourite subject is ",subject);
+    let a=10;
+    let b=16.21;
+    console.log(a);
+    console.log(b);
+    let eligible= age >= 18;
+    console.log(eligible);
+    let fruits = ["Apple", "Banana", "Cherry"]; 
+    let numbers = [1, 2, 3, 4, 5]; 
+    console.log(fruits);
+    console.log(numbers);
+  
+    function greetUser(name) {
+    return "Hello, " + name + "! Welcome to JavaScript.";
+    }
+    let greetingMessage = greetUser("Bob");
+    console.log(greetingMessage);
+    var temperature = prompt("Enter the temperature:");
+    if (temperature >30){
+        console.log("The temperature is hot");
+    }
+    else{
+        console.log("The temperature is comfortable");
+    }
+    for(let i=1; i<=5; i++){
+        console.log(i);
+    }
+
+    console.log(5 == '5'); 
+    console.log(5 === '5');
+    console.log(0 == false); 
+    console.log(0 === false) 
+     
+
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>
+
+
