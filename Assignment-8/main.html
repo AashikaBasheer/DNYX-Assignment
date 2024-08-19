@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Password</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    
+    <div class="container">
+        <h2>Update Password</h2>
+        <form id="updatePasswordForm">
+            <div class="input-group">
+                <label for="newPassword"><b>New Password</b></label><br>
+                <input type="password" id="newPassword" placeholder="Create new password">
+                <span id="newPasswordErrMsg" class="error-message"></span><br>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword"><b>Confirm Password</b></label><br>
+                <input type="password" id="confirmPassword" placeholder="Confirm password">
+                <span id="confirmPasswordErrMsg" class="error-message"></span><br>
+            </div>
+            <button type="submit" id="updateBtn">Update</button>
+           
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
