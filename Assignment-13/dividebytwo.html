@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Assignment-13</h1>
+    <h2><center> Divide by Two</center></h2>
+    <script>
+        function filterEvenNumbers(myArray){
+            const resultArray = myArray.filter(function(value){
+                return value % 2 ==0;
+            });
+            return resultArray;
+        }
+        const input1 = [12, 5, 7, 8, 3, 2];
+        const output1 = filterEvenNumbers(input1);
+        console.log("Sample Output 1: ", output1);
+    </script>
+    
+</body>
+</html>
+

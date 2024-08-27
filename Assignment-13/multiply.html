@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Assignment-13</h1>
+    <h2><center>Multiply by Ten</center></h2>
+    <script>
+        function multiplyByTen(myArray){
+            const resultArray = myArray.map(function(value){
+                return value * 10;
+            });
+            return resultArray;
+        }
+        const input1 = [12, 2, 2, 4, 1];
+        const output1 = multiplyByTen(input1);
+        console.log("Sample Output 1: ", output1);
+    </script>
+    
+</body>
+</html>
+
